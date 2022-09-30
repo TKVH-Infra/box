@@ -1,0 +1,11 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: external-box
+spec:
+  type: ExternalName
+  externalName: 192.168.1.1
+  ports:
+  - port: 80
+    targetPort: 80

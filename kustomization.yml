@@ -1,0 +1,5 @@
+namespace: box
+resources:
+- box-svc.yml
+- box-ing.yml
+- box-ns.yml
